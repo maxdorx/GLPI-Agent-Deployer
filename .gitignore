@@ -1,0 +1,9 @@
+artifacts/
+.vs/
+*.obj
+*.exe
+*.db
+*.db-shm
+*.db-wal
+*.log
+config.ini

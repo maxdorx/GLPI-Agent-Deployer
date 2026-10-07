@@ -1,0 +1,4 @@
+#include "resource.h"
+1 RT_MANIFEST "setup.manifest"
+IDR_SERVICE RCDATA "GLPI.Agent.Deployer.Service.exe"
+IDR_RUNNER  RCDATA "GLPI.Agent.Deployer.RemoteRunner.exe"
