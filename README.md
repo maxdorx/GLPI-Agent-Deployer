@@ -17,7 +17,7 @@ AD discovery defaults to every 15 minutes. Compliant agents are rechecked every 
 
 ## Requirements
 
-- An x64 Windows 10/11 target environment and a domain-joined Windows Server 2022 or Windows 10/11 deployer host.
+- x64 Windows 10 and above, or Windows Server 2016 and above.
 - A dedicated `DOMAIN\user` with read access to the selected AD computer objects and local Administrator rights on every target. Do not use a Domain Admin account.
 - TCP 445 for `ADMIN$`, TCP 135, and the configured dynamic RPC range from the deployer to targets.
 - An official x64 GLPI Agent MSI.
